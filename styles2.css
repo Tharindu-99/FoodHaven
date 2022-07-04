@@ -105,7 +105,7 @@
   
 }
 
-.container{
+.container {
   text-decoration: none;
 }
 
@@ -114,7 +114,11 @@
   padding-bottom: 2%;
 }
 
-
+.navbar a{
+  color: beige;
+  padding-left: 5px;
+  text-decoration: none;
+}
 
 
 
