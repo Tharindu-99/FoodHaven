@@ -5,22 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Starwars</title>
-        <!--Bootstrap CSS-->
-        <link rel="stylesheet" href="sources\bootstrap.min.css">
-        <link rel="stylesheet" href="styles2.css">
+
+       <!--Bootstrap CSS-->
+        <link rel="stylesheet" href="sources/bootstrap.min.css"> <!--Bootstrap min css file-->
+        <link rel="stylesheet" href="styles2.css">               <!--CSS file-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script> <!--Bootstrap bundle js file-->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <!--Bootstrap CSS-->
+        
 </head>
 <body>
 
-    <div class="top-nav fixed-top">
-        <a href="#"><i class="fa fa-cog" aria-hidden="true"></i>Settings</a>
-        <a href="#">The Foodie's Haven</h2></a>
-        <a href="index.html" ><i class="fa fa-home" aria-hidden="true"></i>Home</a>
-        <a href="AboutUs.html"><i class="fa fa-info-circle" aria-hidden="true"></i>About Us</a>
-        <a href="Signup.html"><i class="fa fa-user-plus" aria-hidden="true"></i>Sign Up</a>
-        <a href="Login.html" class="active"><i class="fa fa-user-circle" aria-hidden="true"></i>Login</a>
-        
-        <input type="text" placeholder="Search..">
+    <div class="container">
+        <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">THE FOOD'S HAVEN</a>
+              <button class="navbar-toggler d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                  <li class="nav-item" style="text-decoration:none">
+                    <a href="index.html" class="active"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="AboutUs.html"><i class="fa fa-info-circle" aria-hidden="true"></i>About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="Signup.html"><i class="fa fa-user-plus" aria-hidden="true"></i>Sign Up</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="Login.html"><i class="fa fa-user-circle" aria-hidden="true"></i>Login</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="text" placeholder="Search">
+                  <button class="btn btn-primary" type="button">Search</button>
+                </form>
+              </div>
+            </div>
     </div>
 
     <!--jQUERY, popper, them Bootstrap CSS-->

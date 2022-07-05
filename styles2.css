@@ -117,7 +117,20 @@
 .navbar a{
   color: beige;
   padding-left: 5px;
+  padding-right: 5px;
   text-decoration: none;
+  display: flex;
+}
+
+.navbar-toggler-icon:active, li{
+  padding-bottom: 3%;
+  padding-top: 3%;
+}
+
+.navbar-nav li:hover{
+border-color: aliceblue;
+border-style: solid;
+border-radius: 6px;
 }
 
 
